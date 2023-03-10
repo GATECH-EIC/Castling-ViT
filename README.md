@@ -21,7 +21,7 @@ Here are some general guidances for reproducing results reported in our paper.
 
 * For segmentation task, we build our codebase on top of [Mask2Former](https://github.com/facebookresearch/Mask2Former), where the unsupervised pretrained models are trained using the [MAE](https://github.com/facebookresearch/mae) framework.
 
-* For detection task, we build our codebase on top of [PicoDet@PaddleDet](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.6/configs/picodet) and it's [PyTorch version](https://github.com/Bo396543018/Picodet_Pytorch). The supervised pretrained models are trained using the [LeViT](https://github.com/facebookresearch/LeViT) framework.
+* For detection task, we build our codebase on top of [PicoDet@PaddleDet](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.6/configs/picodet) and its [PyTorch version](https://github.com/Bo396543018/Picodet_Pytorch). The supervised pretrained models are trained using the [LeViT](https://github.com/facebookresearch/LeViT) framework.
 
 
 To facilitate the usage in our research community, I am working on translating some of the highly coupled codes to standalone version. Ideally, the detection codebase can be exptected later, stay tuned.
