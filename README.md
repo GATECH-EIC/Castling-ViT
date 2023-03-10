@@ -9,7 +9,7 @@ Accepted by [**CVPR 2023**](https://cvpr2023.thecvf.com/). More Info:
 
 ---
 
-This is supposed to be an unofficial release of miniature code to reveal the core implementation of our attention block. The final adopated attention block is in a [MultiScaleAttention](https://github.com/facebookresearch/mvit/blob/main/mvit/models/attention.py#L93) format.
+This is supposed to be an unofficial release of miniature code to reveal the core implementation of our attention block. The final adopted attention block is in a [MultiScaleAttention](https://github.com/facebookresearch/mvit/blob/main/mvit/models/attention.py#L93) format.
 
 * For classification task, we build our codebase on top of [MobileVision@Meta](https://github.com/facebookresearch/mobile-vision).
 
